@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: flex;
+}
+marquee{
+    font-size: 120px;
+    text-shadow: 15px 10px 25px rgb(57, 56, 56);
+}
+marquee span:hover{
+    background-color: #26c458;
+    border: 1px solid #26c458;
+    border-radius: 15%;
+    padding: 10px;
+}
+span{
+    font-family: algerian;
+}
+#smile-emoji{
+        animation-name: smily;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-duration: infinite;
+}
+@keyframes smily {
+    49%{
+        opacity: 0.3;
+    }
+}
+.about{
+    width: 450px;
+    height: 550px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 50px auto;
+    padding: 12px 10px;
+    background-color: rgb(159, 157, 157);
+    box-shadow: 30px 40px 20px rgb(12, 12, 12);
+}
+img{
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+.img-cool{
+    width: 350px;
+    height: 450px;
+    margin: 50px auto;
+    padding: 12px 10px;
+    transform: translate(10px -50px);
+}
+.social{
+    width: 450px;
+    height: 650px;
+    border: 1px solid rgb(159, 157, 157);
+    border-radius: 15px;
+    margin: 50px auto;
+    padding: 12px 10px;
+    font-family: algerian;
+}
+.about p{
+    line-height: 25px;
+}
+.about hr{
+    margin-bottom: 25px;
+}
+.about ul{
+    margin-top:  5px;
+}
+.about ul li{
+    padding-top: 12px;
+}
+.mst:hover{
+    filter: drop-shadow(15px 15px 20px rgb(12, 12, 12));
+    transform: translate(20px, -50px);
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+.img-google{
+    filter: drop-shadow(15px 15px 20px #252222);
+}
+
+#app{
+    width: auto;
+    border: 2px solid gray;
+    border-radius: 25px;
+    margin: 25px;
+    padding: 20px;
+    box-shadow: 10px 10px 15px black;
+    display: flex;
+}
+
+#app span{
+    font-size: 25px;
+    margin-left: 25px;
+    color: #d5255a;
+}
+
+#app a{
+    text-decoration: none;
+}
+
+#app i{
+      width: 35px;
+      height: 35px;
+      background-color: #e1dcdc;
+      border-radius: 50%;
+}
+
+#app i{
+    transition: all 0.5s;
+}
+
+#app i:hover{
+    font-size: 30px;
+}
+
+#app span:hover{
+    font-size: 30px;
+}
